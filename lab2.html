@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Hello</title>
+        <link href="style.css"  rel="stylesheet"> 
+        <style>
+            .bounce{
+                height:40px;
+                width:150px;
+                background: grey;
+                position:absolute;
+                animation:jump 0.9s infinite;
+                border-radius: 5px;
+                float:none;
+
+            }
+            @keyframes jump{
+                0% {
+                     transform: scale(1,1) translate(250px, 100px);
+                }
+                75%{
+                    transform: scale(1,1) translate(250px, 50px); 
+                }
+                78%{
+                    transform: scale(1,1) translate(250px, 60px);
+                }
+                100% {
+                    transform: scale(1,1) translate(250px, 100px);
+                }
+             }
+        </style>
+        
+    </head>
+    <body>
+        <div class="bounce">
+            <p style="text-align: center;">Loading</p>
+            
+        </div>
+        <p><h3>Hello testing</h3> </p>
+    </body>
+</html>
